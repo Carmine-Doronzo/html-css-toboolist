@@ -1,0 +1,52 @@
+/*selettore di formattazione iniziale*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*classe contenitore*/
+.container{
+    padding-top: 5%;
+    width: 80%;
+    margin:auto;
+    
+}
+
+.intest{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+h1{
+    display: inline;
+}
+
+.backgr{
+    background-color: azure;
+
+}
+
+.navigation{
+    padding: 2% 2%;
+    margin:5% 5%;
+    background-color: white;
+    border-bottom: 5px solid grey;
+}
+
+.botton-blue{
+    background-color: blue;
+    color: white;
+    border-radius: 5%; 
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.botton-white{
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 1%;
+    
+}
