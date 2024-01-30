@@ -1,4 +1,7 @@
 /*selettore di formattazione iniziale*/
+body{
+    background-color: aqua;
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,26 +10,28 @@
 
 /*classe contenitore*/
 .container{
-    padding-top: 5%;
+    /*padding-top: 5%;*/
     width: 80%;
-    margin:0% 20% 20% 10% ; 
-    padding-bottom: 15%; 
+    margin: 10% 10% 10% 10%; 
+    padding-bottom: 5%; 
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
     
 }
 
 .intest{
     padding-left: 1%;
     padding-top: 1%;
+    background-color: white;
 }
 
 h1{
     display: inline;
 }
 
-.backgr{
-    background-color: azure;
 
-}
+
 
 .navigation{
     padding: 2% 2%;
@@ -99,5 +104,7 @@ p{
 /*.radius{
     border: 5px solid white;
     border-radius: 5px;
-}
-*/
+    background-color: white;
+    margin: 20% 20% 20% 20%;
+    padding-bottom:15%;
+}*/
