@@ -6,13 +6,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 li,
 ol,
 menu{
     list-style: none;
+    padding-left: 1px;
 }
+
+
 
 /*classe contenitore*/
 .container{
@@ -33,7 +37,9 @@ menu{
 }
 
 h1{
-    display: inline;
+    display: inline-block;
+    vertical-align: 15px;
+
 }
 
 
@@ -47,21 +53,14 @@ h1{
 }
 
 .botton{
-    
-    color: white;
+    color: gray;
+    border: 2px solid grey;
     border-radius: 5%; 
     padding: 1%;
     margin-left: 1%;
 }
 
-.botton-white{
-    color: grey;
-    border: 2px solid grey;
-    border-radius: 5%;
-    padding: 1%;
-    margin-left: 1%;
-    
-}
+
 
 .task{
     padding: 5% 2%;
@@ -113,9 +112,18 @@ p{
     background-color: white;
 }
 
+.bggray{
+    
+    
+    background-color: lightgray;
+    
+    
+}
+
 
 .pad{
     padding-top: 5%;
 }
+
 
 
