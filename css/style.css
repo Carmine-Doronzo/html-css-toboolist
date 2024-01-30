@@ -9,7 +9,8 @@
 .container{
     padding-top: 5%;
     width: 80%;
-    margin:auto;
+    margin:0% 20% 20% 10% ; 
+    padding-bottom: 15%; 
     
 }
 
@@ -34,8 +35,8 @@ h1{
     border-bottom: 5px solid grey;
 }
 
-.botton-blue{
-    background-color: blue;
+.botton{
+    
     color: white;
     border-radius: 5%; 
     padding: 1%;
@@ -62,10 +63,41 @@ p{
 }
 
 .mark{
-    background-color: blue;
+    
     color: white;
     border: 1px solid;
     border-radius: 7px;
     font-size: 10px;
     padding: 1%;
 }
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.greenyellow{
+    background-color: greenyellow;
+}
+
+/*.radius{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+*/
