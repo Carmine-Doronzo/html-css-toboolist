@@ -8,9 +8,15 @@ body{
     box-sizing: border-box;
 }
 
+li,
+ol,
+menu{
+    list-style: none;
+}
+
 /*classe contenitore*/
 .container{
-    /*padding-top: 5%;*/
+    padding-top: 5%;
     width: 80%;
     margin: 10% 10% 10% 10%; 
     padding-bottom: 5%; 
@@ -73,7 +79,9 @@ p{
     border: 1px solid;
     border-radius: 7px;
     font-size: 10px;
-    padding: 1%;
+    padding: 3px;
+    margin: 5px;
+    
 }
 
 .red{
@@ -101,10 +109,4 @@ p{
     background-color: greenyellow;
 }
 
-/*.radius{
-    border: 5px solid white;
-    border-radius: 5px;
-    background-color: white;
-    margin: 20% 20% 20% 20%;
-    padding-bottom:15%;
-}*/
+
