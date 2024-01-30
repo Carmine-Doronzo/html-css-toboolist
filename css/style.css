@@ -20,7 +20,7 @@ menu{
     width: 80%;
     margin: 10% 10% 10% 10%; 
     padding-bottom: 5%; 
-    background-color: white;
+    
     border: 5px solid white;
     border-radius: 5px;
     
@@ -29,7 +29,7 @@ menu{
 .intest{
     padding-left: 1%;
     padding-top: 1%;
-    background-color: white;
+    
 }
 
 h1{
@@ -42,7 +42,7 @@ h1{
 .navigation{
     padding: 2% 2%;
     margin:5% 5%;
-    background-color: white;
+    
     border-bottom: 5px solid grey;
 }
 
@@ -66,7 +66,7 @@ h1{
 .task{
     padding: 5% 2%;
     margin:-5% 5%;
-    background-color: white;
+    
 }
 
 p{
@@ -84,29 +84,38 @@ p{
     
 }
 
-.red{
+.bgred{
     background-color: red;
 }
 
-.yellow{
+.bgyellow{
     background-color: yellow;
 }
 
-.green{
+.bggreen{
     background-color: green;
 }
 
-.blue{
+.bgblue{
     background-color: blue;
 
 }
 
-.magenta{
+.bgmagenta{
     background-color: magenta;
 }
 
-.greenyellow{
+.bggreenyellow{
     background-color: greenyellow;
+}
+
+.bgwhite{
+    background-color: white;
+}
+
+
+.pad{
+    padding-top: 5%;
 }
 
 
