@@ -1,0 +1,1 @@
+Uno tra i primissimi esercizi di HTML e CSS nel quale utilizzo liste, le formatto e utilizzo il CSS per i primi badge colorati. 
